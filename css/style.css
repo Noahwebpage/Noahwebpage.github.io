@@ -1,0 +1,73 @@
+/*Make our menu horizonal*/
+ul.menu li{
+	display: inline;
+}
+
+/*Add some padding only to the left of each menu item*/
+.menu li{
+	padding: 0px 0px 0px 24px;
+}
+
+.menu ul{
+	background: #BCBCBC;
+	height: 50px;
+	list-style: none;
+	margin:0;
+	padding: 0;
+	border-radius: 15px;
+	box-shadow: inset 0px 16px 0px rgba(255,255,255,.1);
+}	
+
+
+
+/*Hide the drop-down menu*/
+.menu li ul{
+	display: none;
+	position: absolute;
+}
+
+.menu li:hover ul{
+	display: block;
+}
+
+.circle{
+	border-radius: 50%;
+	
+}
+
+.menu li ul a:hover, .menu li ul li:hover a{
+	border: 0px;
+	color: #BCBCBC;
+	text-decoration: none;
+	box-shadow: inset 0px 7px 2px rgba(0,0,.3);
+	
+}
+
+.menu li ul a{
+	
+	height: 50px;
+	font-size: 12px;
+	font-style: normal;
+	margin: 0px;
+	padding: 0px 10px 0px 300px;
+	text-align: left;
+}
+.navigation{
+	background-color: #4A4A4A;
+	height: 10%;
+	width: 90%;
+	margin: 9px;
+}
+
+
+.picture {
+	
+	background-color: #4A4A4A;
+	
+}
+
+.description{
+	
+	background-color: #4A4A4A;
+	
+}
